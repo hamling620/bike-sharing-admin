@@ -1,0 +1,41 @@
+.header {
+  .user-info {
+    height: 48px;
+    line-height: 48px;
+    &-username {
+      text-align: right;
+      padding-right: 20px;
+    }
+  }
+  .weather-info {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #eaeaea;
+    .breadcrumbs {
+      padding: 0 20px;
+      .breadcrumb-item {
+        display: inline-block;
+        padding: 0 20px;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 95%;
+          transform: translateX(-50%);
+          border: 8px solid transparent;
+          border-top-color:#ffffff;
+        }
+      }
+    }
+    .date {
+      text-align: right;
+      padding-right: 20px;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px;
+    }
+  }
+}

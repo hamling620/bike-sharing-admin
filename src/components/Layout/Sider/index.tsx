@@ -46,7 +46,7 @@ class Sider extends Component<Iprops, IState> {
       }
       return (
         <Menu.Item key={ item.key }>
-          <NavLink to={ `/admin${item.key}` }>{ item.title }</NavLink>
+          <NavLink to={ item.key.startsWith('/form') ? item.key.slice(item.key.lastIndexOf('/')) : `/admin${item.key}` }>{ item.title }</NavLink>
         </Menu.Item>
       )
     })

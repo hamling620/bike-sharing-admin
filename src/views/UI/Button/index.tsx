@@ -1,11 +1,11 @@
 import React, { FC } from 'react'
-import { Button } from 'antd'
+import { Card, Button } from 'antd'
 
 const ButtonPage: FC = () => {
   return (
-    <div>
+    <Card title="按钮组件">
       <Button type="primary">按钮</Button>
-    </div>
+    </Card>
   )
 }
 

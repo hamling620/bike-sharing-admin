@@ -51,7 +51,7 @@ export default [
       },
       {
         title: '注册',
-        key: '/form/reg'
+        key: '/form/register'
       }
     ]
   },
@@ -65,7 +65,7 @@ export default [
       },
       {
         title: '高级表格',
-        key: '/table/high'
+        key: '/table/advance'
       }
     ]
   },
